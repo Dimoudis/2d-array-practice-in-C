@@ -5,7 +5,7 @@
 #define ROWS 10
 #define COLS 20
 
-//Äçëþóåéò óõíáñôÞóåùí
+//Δηλώσεις συναρτήσεων
 void createRandomRatings(int MovieRatings[][COLS]);
 void printMovieRatings(int MovieRatings[][COLS]);
 int findBestRatedMovie(int MovieRatings[][COLS]);
@@ -39,8 +39,6 @@ int main(){
     return 0;
 }
 
-
-//Ç óõíÜñôçóç ãåìßæåé Ýíáí ðßíáêá ìå ôõ÷áßåò ôéìÝò
 void createRandomRatings(int MovieRatings[][COLS]) {
     int i, j;
     for (i = 0; i < ROWS; i++) {
@@ -67,7 +65,6 @@ void printMovieRatings(int MovieRatings[][COLS]){
     }
 }
 
-//Ç óõíÜñôçóç åìöáíßæåé óôçí ïèüíç ôï ÌÏ ôùí âáèìïëïãéþí ðïõ Ý÷åé ëÜâåé ìéá êéíçìáôïãñáöéêÞ ôáéíßá
 void printMovieRatingsAverage(int MovieRatings[][COLS], int j){
     int averages[COLS] = {0};
     for(int x=0; x<COLS; x++) {
@@ -97,16 +94,12 @@ int findBestRatedMovie(int MovieRatings[][COLS]){
 
 }
 
-//Ç óõíÜñôçóç åðéóôñÝöåé ôïí áñéèìü ôçò óôÞëçò óôçí ïðïßá âñßóêåôáé ç ôáéíßá ìå ôïí ìéêñüôåñï ýôåñï ÌÏ âáèìïëïãßáò
 int findWorstRatedMovie(int MovieRatings[][COLS]){
-
-
 
 }
 
-//Ç óõíÜñôçóç õðïëïãßæåé ôï ÌÏ êÜèå ãñáììÞò ôïõ ðßíáêá âáèìïëïãéþí, åíôïðßæåé ôç èÝóç ôïõ ðéï áõóôçñïý êáé ôïõ ðéï åðéåéêïýò êñéôÞ êáé ôáîéíïìåß ôá áðïôåëÝóìáôá óå áýîïõóá óåéñÜ
-void sortFriendsRatings(int MovieRatings[][COLS]){
 
+void sortFriendsRatings(int MovieRatings[][COLS]){
 
 }
 
